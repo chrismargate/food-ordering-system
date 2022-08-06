@@ -368,8 +368,10 @@ GROUP BY fooditems_t.food_type;'
 
 if __name__ == '__main__':
 
-    while OrderingSystem.on_loop == True:
-        OrderingSystem.on_loop = False
-        LoginWindow(tk.Tk()).run()
-        if LoginWindow.logged_in == True:
-            OrderingSystem(tk.Tk()).run()
+    print("Hello, World!")
+
+    # while OrderingSystem.on_loop == True:
+    #     OrderingSystem.on_loop = False
+    #     LoginWindow(tk.Tk()).run()
+    #     if LoginWindow.logged_in == True:
+    #         OrderingSystem(tk.Tk()).run()
